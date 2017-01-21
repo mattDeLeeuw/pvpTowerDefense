@@ -1,0 +1,17 @@
+package gui;
+
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
+public class Window {
+	public static void main(String[] args) {
+		JFrame myFrame = new JFrame("Tower Defense");
+		myFrame.setSize(1650, 1080);
+		myFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		myFrame.setExtendedState(JFrame.MAXIMIZED_BOTH); 
+		myFrame.setUndecorated(true);
+		myFrame.setVisible(true);
+	}
+	Painter painter = new Painter();
+	
+}

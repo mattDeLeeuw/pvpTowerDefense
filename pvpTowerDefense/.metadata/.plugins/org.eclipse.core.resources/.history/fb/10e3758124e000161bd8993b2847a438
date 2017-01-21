@@ -1,0 +1,11 @@
+package gui;
+
+import javax.swing.JFrame;
+import javax.swing.WindowConstants;
+
+public class BackgroundLoop {
+	public static void main(String[] args) {
+		JFrame myFrame = new JFrame("Tower Defense");
+		
+	}
+}
